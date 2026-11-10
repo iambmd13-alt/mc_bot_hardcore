@@ -11,7 +11,7 @@ function createBot() {
   const bot = mineflayer.createBot({
     host: 'HNA_DI_IP',
     port: 25565,
-    version: '1.21.11',
+    version: '1.21.4',
     username: 'AFK_Bot'
   });
 
