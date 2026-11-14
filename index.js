@@ -10,7 +10,7 @@ http.createServer((req, res) => {
 function createBot() {
   const bot = mineflayer.createBot({
     host: 'hardcorev.play.hosting',
-    port: 25644,
+    port: 25704,
     version: '1.21.4',
     username: 'AFK_Bot'
   });
