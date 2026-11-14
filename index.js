@@ -8,7 +8,7 @@ http.createServer((req, res) => {
 
 function createBot() {
   const bot = mineflayer.createBot({
-    host: '62.141.62.22',
+    host: 'hardcorev.play.hosting',
     port: 25797,
     version: false,
     username: 'HardcorevBot'
