@@ -1,14 +1,14 @@
 const http = require('http');
 const mineflayer = require('mineflayer');
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Bot is running 24/7!\n');
 });
 
-server.listen(PORT, () => {
-  console.log(`[OK] HTTP server is listening on port ${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`[OK] HTTP server is listening on 0.0.0.0:${PORT}`);
   startBot();
 });
 
