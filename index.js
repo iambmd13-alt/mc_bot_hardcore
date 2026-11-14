@@ -11,7 +11,7 @@ function createBot() {
     host: '62.141.62.22',
     port: 25797,
     version: false,
-    username: 'AFK_Bot'
+    username: 'HardcorevBot'
   });
 
   bot.on('spawn', () => {
